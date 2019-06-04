@@ -1,11 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 namespace WindowsFormsApplication2
@@ -23,7 +18,7 @@ namespace WindowsFormsApplication2
         {
             InitializeComponent();
 
-            string connString = "Server=l228-teacher; Database = 16063_airport; port=3306; user=student; password = student;";
+            string connString = "Server=localhost; Database = 16063_airport; port=3306; user=root; password = 0000;";
             conn = new MySql.Data.MySqlClient.MySqlConnection(connString);
         }
 

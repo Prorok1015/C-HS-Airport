@@ -20,7 +20,7 @@ namespace WindowsFormsApplication2
         public Add_flight()
         {
             InitializeComponent();
-            string connString = "Server=l228-teacher; Database = 16063_airport; port=3306; user=student; password = student;";
+            string connString = "Server=localhost; Database = 16063_airport; port=3306; user=root; password = 0000;";
             conn = new MySql.Data.MySqlClient.MySqlConnection(connString);
         }
 
